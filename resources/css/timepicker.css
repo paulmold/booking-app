@@ -1,0 +1,18 @@
+#week-time-picker .hour {
+    background: lightgreen;
+    width: 100%;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+#week-time-picker .hour.available {
+    background: lightgreen;
+}
+
+#week-time-picker .hour.booked {
+    background: lightcoral;
+}
+
+#week-time-picker .hour.break {
+    background: lightgray;
+}
